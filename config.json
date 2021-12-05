@@ -3,6 +3,6 @@
         "name": "commandName",
         "cmd": "echo hi >> hi.txt",
         "time": "5",
-        "runMode": "default"
+        "runMode": "finished"
     }
 ]

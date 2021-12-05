@@ -22,6 +22,7 @@ def runner(name, cmd, time, runMode, processes):
     if runMode == "finished":
         p = None
         while True:
+            finished = False
             if p is None or (finished := (p.poll() is not None)): # start or has finished
                 if finished: processes.remove(p) # Remove from process list if it's finished
                 processes.append(p := run(cmd))
