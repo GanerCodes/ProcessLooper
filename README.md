@@ -1,3 +1,5 @@
+# Note: Project replaced by https://github.com/GanerCodes/ProcessManager
+
 `python3 main.py <config>`
 
 Name:
